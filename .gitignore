@@ -1,0 +1,11 @@
+# Ignore all class files
+*.class
+
+# Ignore the bin directory
+/bin/
+
+# Ignore all jar files in the lib directory
+/lib/*.jar
+
+# Ignore VS Code settings
+/.vscode/
