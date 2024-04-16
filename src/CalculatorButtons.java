@@ -62,13 +62,13 @@ public class CalculatorButtons implements ActionListener {
 
             actionButtons[i].setBounds(x, y, buttonWidth, buttonHeight);
         }
-        // Set the bounds for the dlButton and clsButton
+
         int buttonSpacing = 20;
         int newOffsetY = offsetY + 5 * (buttonHeight + 5) + buttonSpacing;
         dlButton.setBounds(offsetX + buttonWidth / 2, newOffsetY, buttonWidth, buttonHeight);
         clsButton.setBounds(offsetX + buttonWidth / 2 + buttonWidth + 5, newOffsetY, buttonWidth, buttonHeight);
 
-        // Set the bounds for the enterButton
+    
         enterButton.setBounds(offsetX + buttonWidth / 2, newOffsetY + buttonHeight + buttonSpacing, 2 * buttonWidth + 5,buttonHeight);
     }
 
